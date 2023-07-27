@@ -30,12 +30,12 @@ namespace DataAccessLayer.Data
         // This maps to the "Registrations" table in the database.
         public DbSet<Registration> Registrations { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    base.OnModelCreating(modelBuilder);
 
-            // Apply the RegistrationConfiguration to the Registration entity
-            modelBuilder.ApplyConfiguration(new RegistrationConfiguration());
-        }
+        //    // Apply the RegistrationConfiguration to the Registration entity
+        //    modelBuilder.ApplyConfiguration(new RegistrationConfiguration());
+        //}
     }
 }

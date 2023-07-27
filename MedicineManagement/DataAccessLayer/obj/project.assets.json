@@ -3508,19 +3508,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Techment Technology\\.nuget\\packages\\": {}
+    "C:\\Users\\Techment\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkingModel\\Medicine_POC_Updated_Code\\ASP.NET_Project\\MedicineManagement\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Techment\\Desktop\\Medicine_Retail_Poc\\ASP.NET_Medicine_POC\\MedicineManagement\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "D:\\WorkingModel\\Medicine_POC_Updated_Code\\ASP.NET_Project\\MedicineManagement\\DataAccessLayer\\DataAccessLayer.csproj",
-      "packagesPath": "C:\\Users\\Techment Technology\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkingModel\\Medicine_POC_Updated_Code\\ASP.NET_Project\\MedicineManagement\\DataAccessLayer\\obj\\",
+      "projectPath": "C:\\Users\\Techment\\Desktop\\Medicine_Retail_Poc\\ASP.NET_Medicine_POC\\MedicineManagement\\DataAccessLayer\\DataAccessLayer.csproj",
+      "packagesPath": "C:\\Users\\Techment\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Techment\\Desktop\\Medicine_Retail_Poc\\ASP.NET_Medicine_POC\\MedicineManagement\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Techment Technology\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Techment\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3528,6 +3533,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

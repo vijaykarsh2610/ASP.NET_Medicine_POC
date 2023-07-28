@@ -8,6 +8,7 @@ namespace MedicineManagement.Controllers
     {
         private readonly ILoginService _service;
 
+        // controller constructor
         public LoginController(ILoginService service)
         {
             _service = service;

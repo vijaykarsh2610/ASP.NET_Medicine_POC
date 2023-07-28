@@ -8,6 +8,7 @@ namespace MedicineManagement.Controllers
     {
         private readonly IRegistrationService _service;
 
+        //Constructor
         public RegistrationController(IRegistrationService service)
         {
             _service = service;

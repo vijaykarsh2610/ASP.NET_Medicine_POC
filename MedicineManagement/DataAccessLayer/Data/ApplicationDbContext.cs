@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 namespace DataAccessLayer.Data
 {
     
-
     /// <summary>
     /// ApplicationDbContext class is a subclass of DbContext, responsible for interacting with the database.
     /// </summary>
@@ -29,6 +28,7 @@ namespace DataAccessLayer.Data
         // DbSet<Registration> represents a collection of Registration entities in the database.
         // This maps to the "Registrations" table in the database.
         public DbSet<Registration> Registrations { get; set; }
+        public DbSet<Disease> Diseases { get; set; }
 
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{

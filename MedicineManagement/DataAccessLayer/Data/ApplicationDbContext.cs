@@ -29,6 +29,7 @@ namespace DataAccessLayer.Data
         // DbSet<Registration> represents a collection of Registration entities in the database.
         // This maps to the "Registrations" table in the database.
         public DbSet<Registration> Registrations { get; set; }
+        public DbSet<Disease> Diseases { get; set; }
 
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{

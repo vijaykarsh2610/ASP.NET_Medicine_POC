@@ -3,7 +3,6 @@ using DataAccessLayer.Repository;
 
 namespace BusinessLogicLayer.Services
 {
-
     public class DiseaseService : IDiseaseService
     {
         private readonly IDiseaseRepository _repository;

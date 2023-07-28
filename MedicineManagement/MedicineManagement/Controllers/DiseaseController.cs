@@ -3,7 +3,6 @@ using DataAccessLayer.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-
 namespace MedicineManagement.Controllers
 {
     public class DiseaseController : Controller

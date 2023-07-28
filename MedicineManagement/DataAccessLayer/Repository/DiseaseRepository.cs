@@ -1,7 +1,6 @@
 ﻿using DataAccessLayer.Data;
 using DataAccessLayer.Domain;
 
-
 namespace DataAccessLayer.Repository
 {
 

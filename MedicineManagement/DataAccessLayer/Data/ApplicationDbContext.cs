@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 namespace DataAccessLayer.Data
 {
     
-
     /// <summary>
     /// ApplicationDbContext class is a subclass of DbContext, responsible for interacting with the database.
     /// </summary>

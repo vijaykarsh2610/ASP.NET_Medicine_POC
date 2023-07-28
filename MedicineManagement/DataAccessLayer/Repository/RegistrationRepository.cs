@@ -1,5 +1,6 @@
 ﻿using DataAccessLayer.Data;
 using DataAccessLayer.Domain;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Repository
@@ -20,8 +21,38 @@ namespace DataAccessLayer.Repository
         }
 
         // Create a new user (registration)
+        //public async Task<Registration> Create(Registration user)
+        //{
+        //    try
+        //    {
+        //        // Hash the user's password before saving to the database
+        //        user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+        //        _context.Registrations.Add(user);
+        //        await _context.SaveChangesAsync();
+        //        return user;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        // Handle any exceptions that may occur during user creation
+
+        //        throw; // Re-throw the exception to be handled at the higher level
+        //    }
+        //}
+
         public async Task<Registration> Create(Registration user)
         {
+            if (user == null)
+            {
+                throw new ArgumentNullException(nameof(user));
+            }
+
+            // Check if the email already exists in the database
+            var existingUser = await _context.Registrations.FirstOrDefaultAsync(u => u.Email == user.Email);
+            if (existingUser != null)
+            {
+                throw new DbUpdateException("Email already exists");
+            }
+
             try
             {
                 // Hash the user's password before saving to the database
@@ -30,11 +61,10 @@ namespace DataAccessLayer.Repository
                 await _context.SaveChangesAsync();
                 return user;
             }
-            catch (Exception ex)
+            catch (DbUpdateException ex)
             {
-                // Handle any exceptions that may occur during user creation
-               
-                throw; // Re-throw the exception to be handled at the higher level
+                // Handle any other exceptions that may occur during user creation
+                throw new Exception("Failed to create user.", ex);
             }
         }
 

@@ -49,7 +49,7 @@ namespace MedicineManagement.Controllers
                 else
                 {
                     // If the user is not an admin, redirect to the privacy page for regular users
-                    return RedirectToAction("Privacy", "Home");
+                    return RedirectToAction("Index", "Dummy");
                 }
             }
             catch (Exception ex)

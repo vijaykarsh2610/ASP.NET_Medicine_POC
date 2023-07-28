@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DataAccessLayer
-build_property.ProjectDir = C:\Users\Techment\Desktop\Medicine_Retail_Poc\ASP.NET_Medicine_POC\MedicineManagement\DataAccessLayer\
+build_property.ProjectDir = c:\Users\Techment\Desktop\Medicine_Retail_Poc\ASP.NET_Medicine_POC\MedicineManagement\DataAccessLayer\

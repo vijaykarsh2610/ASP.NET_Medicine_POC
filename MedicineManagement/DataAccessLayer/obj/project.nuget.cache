@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T/fAdTCyOr5XkNb5kg4jjutxx+kHdIOZDuT+3Fp2x4Vw8uF+HbPVBEdPrERQztNKtltEyI551SBToSSt6bOSlw==",
+  "dgSpecHash": "78eWm6QW4KrKoambjauy5vagNu777+CBHZgbt5i8999oLiB84R0yzX1WZjDHUWO2ueAPxT7FS0T85D6J8E/1Aw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Techment\\Desktop\\Medicine_Retail_Poc\\ASP.NET_Medicine_POC\\MedicineManagement\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
@@ -43,9 +43,14 @@
     "C:\\Users\\Techment\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Techment\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Techment\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Techment\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\Techment\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Techment\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Techment\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Techment\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Techment\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Techment\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
+    "C:\\Users\\Techment\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
     "C:\\Users\\Techment\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\Techment\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
     "C:\\Users\\Techment\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
